@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid pink;
+  display: block;
+  background-color: bisque;
+}
+
+h1 p {
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.albums-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.album {
+  border: 1px solid pink;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: brown;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.violet {
+  background-color: blueviolet;
+}
+
+.red {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+a {
+  text-decoration: none;
+}
